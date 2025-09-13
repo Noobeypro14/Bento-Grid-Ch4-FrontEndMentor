@@ -30,11 +30,11 @@ Users should be able to:
 
 **Mobile Layout:**
 
-![Mobile Layout](./screenshot-mobile.png)
+![Mobile Layout](./design/mobile-design.jpg)
 
 **Desktop Layout:**
 
-![Desktop Layout](./screenshot-desktop.png)
+![Desktop Layout](./design/desktop-design.jpg)
 
 ### Links
 
@@ -42,6 +42,7 @@ Users should be able to:
 - [Live Site URL](https://your-username.github.io/bento-grid-solution)
 
 ## My Process
+Did the mobile version first before working on the desktop design which took awhile because i had not much knowledge of grids in css
 
 ### Built With
 
@@ -109,5 +110,5 @@ In future projects, I plan to focus on:
 - Advanced CSS Grid techniques and complex layout patterns
 
 ### Author
-Frontend Mentor: @Noobeypro14
-GitHub: @Noobeypro14
+- Frontend Mentor: @Noobeypro14
+- GitHub: @Noobeypro14
