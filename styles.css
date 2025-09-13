@@ -1,0 +1,484 @@
+@font-face {
+  font-family: 'DM Sans';
+  src: url('./assets/fonts/DMSans-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: 400 500; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('./assets/fonts/DMSans-Italic-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: 400 500;
+  font-style: italic;
+}
+
+:root {
+    --first-: hsl(254, 88%, 90%);
+    --second-: hsl(256, 67%, 59%);
+    --third-: hsl(31, 66%, 93%);
+    --fourth-: hsl(39, 100%, 71%); 
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    background-color: hsl(254, 88%, 95%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 20rem;
+    height: auto;
+}
+
+/*Social Section*/
+.social {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    background-color: var(--second-);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.social-text1 {
+    color: white;
+    font-family: "DM sans", serif;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.social-span1 {
+    color: var(--fourth-);
+}
+
+.social-span2 {
+    font-style: italic;
+}
+
+.stars {
+    width: 12rem;
+}
+
+.social-text2 {
+    color: white;
+    font-family: "DM Sans", serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 0.3rem;
+    margin-bottom: 2rem;
+}
+
+/*Social Section End*/
+
+/*Manage multiple accounts and platforms*/
+.manage {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: white;
+    height: auto;
+}
+
+.manage-text {
+    font-family: "DM Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 0.84;
+    font-size: 1.5rem;
+    letter-spacing: -1px;
+}
+
+.platforms {
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    padding-top: 0.5rem;
+}
+/* Manage Section end*/
+
+/*Maintain Consistent Posting Schedule*/
+.maintain {
+    max-width: 90%;
+    margin: 2rem auto;
+    background-color: var(--fourth-);
+    border-radius: 10px;
+    padding: 1rem;
+    height: 12rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.maintain-text {
+    font-family: "DM Sans", serif;
+    line-height: 0.84;
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    width: 90%;
+    word-spacing: -1px;
+}
+
+.consistent {
+    max-width: 12rem;
+}
+
+/*Consistent End*/
+
+/*Schedule Posts*/
+.schedule {
+    max-width: 90%;
+    background-color: var(--first-);
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+
+.schedule-text {
+    font-family: "DM Sans", serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+.schedule-text2 {
+    font-family: "DM Sans", serif;
+    font-style: normal;
+    text-align: center;
+    font-size: 1rem;
+    width: 90%;
+    margin-bottom: 0.8rem;
+}
+
+.posts {
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+/*Schedule End*/
+
+/* Grow Followers */
+.grow {
+    max-width: 90%;
+    background-color: var(--second-);
+    margin: 2rem auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.grow-text {
+    color: white;
+    font-family: "DM Sans", serif;
+    text-align: center;
+    width: 70%;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.followers {
+    max-width: 75%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+/*Grow Followers End*/
+
+/* Audience Growth*/
+.faster {
+    max-width: 90%;
+    margin: 2rem auto;
+    font-family: "DM Sans", serif;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.audience-span {
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.faster-text {
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.audience {
+    max-width: 65%;
+    margin-bottom: 1rem;
+}
+/*Audience Growth End*/
+
+/* Create Section*/
+.create {
+    max-width: 90%;
+    background-color: var(--third-);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem auto;
+}
+
+.create-text {
+    font-family: 'DM sans' , serif;
+    font-style: normal;
+    line-height: 1;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    letter-spacing: -2px;
+    font-size: 2rem;
+}
+
+.create-span {
+    font-style: italic;
+    color: var(--second-)
+}
+
+.content {
+    width: 70%;
+    margin-bottom: 0.8rem;
+}
+/* Create Section End*/
+
+/*AI Content*/
+.write {
+    max-width: 90%;
+    font-family: "DM Sans", serif;
+    margin: 2rem auto;
+    line-height: 1;
+    padding: 1rem;
+    background-color: var(--fourth-);
+    border-radius: 10px;
+}
+
+.write-text {
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.AI {
+    max-width: 70%;
+}
+/*ENDD!!!*/
+
+/* Desktop overrides */
+@media (min-width: 1024px) {
+
+  *, *::after, *::before{
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 300px 250px 250px 300px;
+    grid-template-rows: 400px 200px 280px ;
+    gap: 1rem;
+
+    grid-template-areas:
+      "create social social schedule"
+      "write manage maintain schedule"
+      "write  faster grow   grow";
+  }
+
+  .social { 
+    grid-area: social; 
+    height: 90%;
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: none;
+ }
+
+ .social-text1{
+    font-size: 3.5rem;
+ }
+
+ .social-text2{
+    font-size: 1rem;
+ }
+  
+  /* Center */
+
+  .manage   { 
+    grid-area: manage; 
+    height: 100%;   
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: 0;
+    max-width: none;
+  }
+
+  .manage-text{
+    font-size: 1.5rem;
+    width: 70%; 
+  }
+
+  .maintain{ 
+    grid-area: maintain; 
+    height: 100%;
+    width: 100%;
+    margin-top: 2rem;
+    margin-right: 0;
+    max-width: none;  
+    padding: 1rem;
+  }
+
+  .maintain-text{
+    font-size: 1.7rem;
+    width: 70%;
+  }
+
+  /* Center End */
+
+  .schedule{ 
+    grid-area: schedule; 
+    height: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;   
+    padding: 1rem;   
+    max-width: none;  
+    overflow-x: hidden;
+    max-width: 85%;
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+
+  .schedule-text{
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+    width: 80%;
+    margin-top: 1rem;
+    font-weight: 500;
+  }
+
+  .schedule-text2{
+    text-align: left;
+    width: 90%;
+    line-height: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .posts{
+    width: 150%;
+    max-width: none;
+    height: 24rem;
+  }
+
+  .create{ 
+    grid-area: create; 
+    height: 100%;
+    margin: 2rem;
+    width: 100%;
+    justify-content: flex-start;
+
+  }
+
+  .create-text{
+    margin-top: 2rem;
+    font-size: 2rem;
+    width: 80%;
+  }
+
+  .content{
+    width: 100%;
+  }
+
+  .grow { 
+    grid-area: grow; 
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0;
+    width: 93%;
+    max-width: none;
+    margin-top: 2rem;
+
+  }
+
+  .grow-text {
+    font-size: 2rem;
+    text-align: left;
+    width: 50%;
+  }
+
+  .followers{
+    margin: 0;
+  }
+
+  .faster{ 
+    grid-area: faster; 
+    margin-top: 2rem;
+    margin-left: 0;
+    width: 100%;
+    max-width: none;
+  }
+
+  .write { 
+    grid-area: write; 
+    width: 100%;
+    padding: 1.5rem;
+    margin: 0;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    height: 87%;
+  }
+
+  .write-text{
+    font-size: 2rem;
+    width: 70%;
+  }
+
+  .AI {
+    width: 100%;
+    max-width: none;
+    margin-top: 3rem;
+    height: 60%; 
+  }
+
+  .followers {
+    width: 40%;
+  }
+
+}
