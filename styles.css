@@ -299,6 +299,11 @@ img {
 .AI {
     max-width: 70%;
 }
+
+.attribution p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
 /*ENDD!!!*/
 
 /* Desktop overrides */
@@ -311,24 +316,26 @@ img {
 
   .container {
     display: grid;
-    grid-template-columns: 300px 250px 250px 300px;
-    grid-template-rows: 400px 200px 280px ;
-    gap: 1rem;
+    grid-template-columns: 270px 250px 250px 270px;
+    grid-template-rows: 280px  100px 100px 280px ;
+    gap: 1.5rem;
 
     grid-template-areas:
       "create social social schedule"
+      "create manage maintain schedule"
       "write manage maintain schedule"
       "write  faster grow   grow";
   }
 
   .social { 
     grid-area: social; 
-    height: 90%;
+    height: 100%;
     width: 100%;
     margin-top: 2rem;
     margin-left: 0;
     margin-right: 0;
     max-width: none;
+    align-items: center;
  }
 
  .social-text1{
@@ -348,11 +355,17 @@ img {
     margin-top: 2rem;
     margin-left: 0;
     max-width: none;
+    overflow-x: hidden;
   }
 
   .manage-text{
-    font-size: 1.5rem;
-    width: 70%; 
+    font-size: 1.8rem;
+    width: 80%; 
+  }
+
+  .platforms{
+      width: 120%;
+      max-width: none;
   }
 
   .maintain{ 
@@ -369,6 +382,8 @@ img {
     font-size: 1.7rem;
     width: 70%;
   }
+
+  
 
   /* Center End */
 
@@ -408,8 +423,10 @@ img {
 
   .create{ 
     grid-area: create; 
-    height: 100%;
-    margin: 2rem;
+    height: 95%;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 0;
     width: 100%;
     justify-content: flex-start;
 
@@ -455,25 +472,28 @@ img {
     max-width: none;
   }
 
+  .faster-text span{
+    font-size: 4rem;
+  }
+
   .write { 
     grid-area: write; 
     width: 100%;
     padding: 1.5rem;
     margin: 0;
-    margin-top: 2rem;
     margin-left: 2rem;
-    height: 87%;
+    height: 92%;
   }
 
   .write-text{
     font-size: 2rem;
-    width: 70%;
+    width: 80%;
   }
 
   .AI {
     width: 100%;
     max-width: none;
-    margin-top: 3rem;
+    margin-top: 1.8rem;
     height: 60%; 
   }
 
